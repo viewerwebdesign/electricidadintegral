@@ -1,0 +1,540 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline 3px black;
+    font-weight: 900;
+    font-family: sans-serif;
+        
+    
+}
+
+.navbar{
+    background-color: #000000;
+
+    
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-fluid .logo, h3{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+.container-fluid img{
+    width: 10vw;
+    height: 10vh;
+    
+}
+
+.navbar-toggler {
+    
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    line-height: 0.9;
+    background-color: transparent;
+    border: 1px solid #e8ff1c ;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    
+}
+button h3{
+    text-align: center;
+    color: #e8ff1c;
+}
+span{
+    text-align: left;
+    color:#e8ff1c;
+    margin: 1%;
+}
+.navbar-nav{
+    width: 35%;
+
+}
+
+.navbar-nav .nav-item{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.collapse{
+    justify-content:flex-end;
+    margin-inline-end: 1%;
+}
+.container-fluid button{
+    
+    
+}
+
+header{
+    background-color: orange ;
+}
+
+header img{
+    width: 100%;
+    height: 70vh;
+    text-shadow: gray 1px 1px 15px;
+}
+.carousel-inner{
+    box-shadow: black 1px 1px 8px;
+    height: 70vh;
+    
+}
+.carousel-inner img{
+    height: 70vh;
+}
+
+.card{
+    
+    box-shadow: #e8ff1c 2px 2px 15px;
+    margin-top: 3%;
+    color: white;
+}
+.card-body{
+    background-color: rgb(104, 101, 101);
+}
+
+footer{
+    background-color: white;
+    padding-top: 2%;
+    box-shadow: black 1px 1px 12px;
+
+}
+.contacto-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+}
+
+
+footer  a, h6{
+    text-decoration: none;
+    color:  rgb(15, 15, 12);
+    text-shadow: 0px 0px 15px rgb(128, 133, 63);
+
+
+}
+footer a:hover{
+    color: gray;
+}
+
+
+.container-boton{
+    background-color: #35a835fd;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+    box-shadow: 0px 0px 20px green ;
+}
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.fa-whatsapp{
+    font-size: 3em;
+    color: white;
+}
+.desarrollado{
+    text-align: center;
+    background-color: rgb(50, 80, 80);
+}
+.desarrollado a{
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+    .navbar{
+        background-color: #000000;
+    
+        
+    }
+    
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .container-fluid .logo, h3{
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    
+    
+    .container-fluid img{
+        width: 10vw;
+        height: 10vh;
+        
+    }
+    
+    .navbar-toggler {
+        
+        padding: 0.25rem 0.75rem;
+        font-size: 0.8rem;
+        line-height: 0.9;
+        background-color: transparent;
+        border: 1px solid #e8ff1c ;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+        
+    }
+    button h3{
+        text-align: center;
+        color: #e8ff1c;
+    }
+    span{
+        text-align: left;
+        color:#e8ff1c;
+        margin: 1%;
+    }
+    .navbar-nav{
+        width: 35%;
+    
+    }
+    
+    .navbar-nav .nav-item{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        font-size: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+    .card{
+    
+        box-shadow: #e8ff1c 0px 0px 12px;
+        margin-top: 3%;
+        color: white;
+    }
+    .card-body{
+        background-color: rgb(104, 101, 101);
+    }
+    
+    footer{
+        background-color: white;
+        padding-top: 2%;
+        box-shadow: black 1px 1px 12px;
+    
+    }
+    .contacto-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
+    }
+    
+    
+    footer  a, h6{
+        text-decoration: none;
+        color:  rgb(15, 15, 12);
+        text-shadow: 0px 0px 15px rgb(128, 133, 63);
+    
+    
+    }
+    footer a:hover{
+        color: gray;
+    }
+    
+    
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+        box-shadow: 0px 0px 20px green ;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+    .desarrollado{
+        text-align: center;
+        background-color: rgb(50, 80, 80);
+    }
+    .desarrollado a{
+        color: white;
+    }
+    
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+    
+    .container-fluid img{
+        width: 40vw;
+        height: 15vh;
+        
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .container-fluid img{
+        width: 40vw;
+        height: 15vh;
+        
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
+}
+@media (min-width: 992px) {
+    
+    .container-fluid img{
+        width: 40vw;
+        height: 15vh;
+        
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
+}
+@media (min-width: 1024px) {
+    
+    .container-fluid img{
+        width: 40vw;
+        height: 15vh;
+        
+    }
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
+}
+/****************************
++++++++++++++++++++++++++++++
+---------- 1200px -----------
++++++++++++++++++++++++++++++
+****************************/
+@media (min-width: 1200px) {
+    
+    .navbar{
+        background-color: #000000;
+        
+        
+    }
+    
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+       background-color: transparent;
+        
+    }
+    
+    .container-fluid .logo, h3{
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    
+    
+    .container-fluid img{
+        width: 10vw;
+        height: 10vh;
+        
+    }
+    
+    .navbar-toggler {
+        
+        padding: 0.25rem 0.75rem;
+        font-size: 0.8rem;
+        line-height: 0.9;
+        background-color: transparent;
+        border: 1px solid #e8ff1c ;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+        
+    }
+    button h3{
+        text-align: center;
+        color: #e8ff1c;
+    }
+    span{
+        text-align: left;
+        color:#e8ff1c;
+        margin: 1%;
+    }
+    .navbar-nav{
+        width: 40%;
+    
+    }
+    
+    .navbar-nav .nav-item{
+        color: #e8ff1c;
+        font-weight: 900;
+        font-size: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #006B5E;
+    }
+
+    .collapse{
+        justify-content:flex-end;
+        margin-inline-end: 1%;
+    }
+    .container-fluid button{
+        
+        
+    }
+    
+    header{
+        background-color: orange ;
+    }
+    
+    header img{
+        width: 100%;
+        height: 70vh;
+        text-shadow: gray 1px 1px 15px;
+    }
+    .carousel-inner{
+        box-shadow: #006B5E 1px 1px 8px;
+        height: 70vh;
+        
+        
+    }
+    .carousel-inner img{
+        height: 70vh;
+    }
+    
+    .card{
+        
+        box-shadow: #006B5E 2px 2px 15px;
+        margin-top: 3%;
+        color: white;
+    }
+    .card-body{
+        background-color: #006B5E;
+    }
+    
+    footer{
+        background-color: #C4FCF0;
+        padding-top: 2%;
+        box-shadow: #006B5E 1px 1px 12px;
+    }
+
+    
+
+    .contacto-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
+    }
+    
+    
+    footer  a, h6{
+        text-decoration: none;
+        color:  orange;
+        text-shadow: 0px 0px 15px rgb(128, 133, 63);
+    
+    
+    }
+    footer a:hover{
+        color: gray;
+    }
+    
+    
+    .container-boton{
+        background-color: #35a835fd;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 20px;
+        right: 25px;
+        padding: 15px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+        box-shadow: 0px 0px 20px green ;
+    }
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .fa-whatsapp{
+        font-size: 3em;
+        color: white;
+    }
+    .desarrollado{
+        text-align: center;
+        background-color: rgb(50, 80, 80);
+    }
+    .desarrollado a{
+        color: white;
+    }
+
+}
