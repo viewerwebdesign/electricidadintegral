@@ -171,11 +171,18 @@ footer a:hover{
     color: white;
 }
 
+/***************************/
+/*******320px a 575px*******/
+/***************************/
+
 @media (min-width: 320px) and (max-width: 575px){
     .navbar{
         background-color: #000000;
     
         
+    }
+    .fa-bars-filter{
+        color: #e8ff1c;
     }
     
     .container-fluid{
@@ -209,7 +216,7 @@ footer a:hover{
         transition: box-shadow .15s ease-in-out;
         
     }
-    button h3{
+    button .fa-bars-filter{
         text-align: center;
         color: #e8ff1c;
     }
@@ -256,7 +263,7 @@ footer a:hover{
         display: flex;
         justify-content: center;
         flex-direction: row;
-        flex-wrap: wrap;
+        
         text-align: center;
         
         
