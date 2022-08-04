@@ -178,12 +178,8 @@ footer a:hover{
 @media (min-width: 320px) and (max-width: 575px){
     .navbar{
         background-color: #000000;
+    }
     
-        
-    }
-    .fa-bars-filter{
-        color: #e8ff1c;
-    }
     
     .container-fluid{
         display: flex;
@@ -216,10 +212,7 @@ footer a:hover{
         transition: box-shadow .15s ease-in-out;
         
     }
-    button .fa-bars-filter{
-        text-align: center;
-        color: #e8ff1c;
-    }
+    
     span{
         text-align: left;
         color:#e8ff1c;
@@ -228,6 +221,9 @@ footer a:hover{
     .navbar-nav{
         width: 35%;
     
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #006B5E;
     }
     
     .navbar-nav .nav-item{
@@ -254,16 +250,14 @@ footer a:hover{
     }
     
     footer{
-        background-color: white;
+        background-color: #C4FCF0;
         padding-top: 2%;
-        box-shadow: black 1px 1px 12px;
-    
+        box-shadow: #006B5E 1px 1px 12px;
     }
     .contacto-footer{
         display: flex;
         justify-content: center;
         flex-direction: row;
-        
         text-align: center;
         
         
@@ -272,7 +266,7 @@ footer a:hover{
     
     footer  a, h6{
         text-decoration: none;
-        color:  rgb(15, 15, 12);
+        color:  orange;
         text-shadow: 0px 0px 15px rgb(128, 133, 63);
     
     
@@ -451,10 +445,7 @@ footer a:hover{
         justify-content:flex-end;
         margin-inline-end: 1%;
     }
-    .container-fluid button{
-        
-        
-    }
+    
     
     header{
         background-color: orange ;
